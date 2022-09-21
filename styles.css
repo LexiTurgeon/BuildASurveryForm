@@ -20,18 +20,37 @@ form {
   padding-bottom: 2em;
 }
 
-input[type="text"]{
-  text-align: center;
-  
+#name-label, #email-label, #number-label{
+  display: inline-block;
+  margin: 0.5rem 0;
+  text-align: left;
 }
 
+#name, #email{
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  width: 35%;
+}
+
+input[type="number"]{
+  width: 30%;
+  text-align: center;
+}
+
+select{
+  text-align: center;
+  display: block;
+  width: 35%;
+  margin: 1em auto;
+}
 input[type="submit"]{
   display: block;
   width: 60%;
   margin: 1em auto;
   height: 2em;
   font-size: 1.1rem;
-  background-color: #3b3b4f;
-  border-color: white;
+  background-color: #BDB76B;
+  border-color: BDB76B;
   min-width: 300px;
 }
