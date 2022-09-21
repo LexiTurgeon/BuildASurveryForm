@@ -1,7 +1,7 @@
 # BuildASurveryForm
 Building a Survey form with HTML &amp; CSS
 
-This was a project I did to learn HTML & CSS on my own. The project gave a list of requirements. I followed the requirements to create the HTML file. I then formatted and changed the display with a CSS file.
+This was a project I did to learn HTML & CSS on my own. The project gave a list of requirements. I followed the requirements to create the HTML file. I then formatted and changed the display with a CSS file. This was done using the "freecodecamp.org" resource.
 
 1. You should have a page title in an h1 element with an id of title.
 2. You should have a short explanation in a p element with an id of description.
@@ -19,4 +19,4 @@ This was a project I did to learn HTML & CSS on my own. The project gave a list 
 14. Inside the form element, you can select several fields from a series of checkboxes, each of which must have a value attribute.
 15. Inside the form element, you are presented with a textarea for additional comments.
 16. Inside the form element, you are presented with a button with id of submit to submit all the inputs.
-17. Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
+17. Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style.
