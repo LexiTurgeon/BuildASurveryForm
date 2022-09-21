@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">
+<html>
+<h1 id="title">Survey Form</h1>
+<p id="description">Please complete this survey.</p>
+<form id="survey-form">
+  <input id="name" type="text" placeholder="Enter Name Here" required><label id="name-label">Enter Name</label></input>
+  <input id="email" type="email" placeholder="Enter Email Here" required><label id="email-label">Enter Email</label></input>
+  <input id="number" type="number" min="10" max="90" placeholder="Enter Number Here"><label id="number-label">Enter a Number</label></input>
+  <select id="dropdown">
+    <option value="">(select favorite animal)</option>
+    <option value="1">Dogs</option>
+    <option value="2">Cats</option>
+    <option value="3">Hampster</option>
+    <option value="4">Other</option>
+  </select>
+  <input id="name" type="radio" value="1" name="choice">Choice 1</input>
+  <input id="name" type="radio" value="2" name="choice">Choice 2</input>
+  <input type="checkbox" value="checkbox1" name="checkbox">Checkbox1</input>
+  <input type="checkbox" value="checkbox2" name="checkbox">Checkbox2</input>
+  <textarea></textarea>
+  <input id="submit" type="submit"></input>
+</form>
+</html>
