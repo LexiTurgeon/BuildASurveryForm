@@ -13,11 +13,13 @@ h1,p {
 }
 
 form {
-  width: 70vw;
+  width: 8000px;
   max-width: 1000px;
-  min-width: 200px;
-  margin: 0 auto;
-  padding-bottom: 2em;
+  min-width: 300px;
+  margin: 10 auto;
+  padding-bottom: 3em;
+  text-align: center;
+  display: inline-block;
 }
 
 #name-label, #email-label, #number-label{
@@ -44,6 +46,20 @@ select{
   width: 35%;
   margin: 1em auto;
 }
+
+#radio, #checkbox{
+  text-align: center;
+  display: inline-block;
+  width: 10%;
+}
+
+#textarea{
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+  margin: 10 auto;
+}
+
 input[type="submit"]{
   display: block;
   width: 60%;
