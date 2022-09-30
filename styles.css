@@ -44,13 +44,17 @@ select{
   text-align: center;
   display: block;
   width: 35%;
-  margin: 1em auto;
+  margin: 10 auto;
+}
+
+#radio-question, checkbox-question, comment-box{
+  margin: 5 auto;
 }
 
 #radio, #checkbox{
+  margin: 5 auto;
   text-align: center;
   display: inline-block;
-  width: 10%;
 }
 
 #textarea{
